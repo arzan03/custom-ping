@@ -26,7 +26,6 @@ This Python script implements a simple ping utility that sends ICMP echo request
 
    ```bash
    python ping.py <host> <count>
-![Output_Example](./shot.png?raw=true "Output Example")
 ## How It Works
 
 The Custom Ping Utility script is designed to send ICMP Echo Requests (pings) to a target and measure the Round-Trip Time (RTT) for each request. Here’s a step-by-step breakdown of how the script operates:
@@ -91,3 +90,4 @@ After completing all ping requests, the script calculates and displays summary s
 5. **Calculate Stats:** After all requests, the script calculates and prints statistics on RTT and packet loss.
 
 By following these steps, the Custom Ping Utility provides a simple way to measure network latency and reliability to a target host.
+![Output_Example](./shot.png?raw=true "Output Example")
